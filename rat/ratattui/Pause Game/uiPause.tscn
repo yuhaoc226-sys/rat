@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cqq12f4rx1n06"]
+
+[ext_resource type="Script" uid="uid://p1ahuca3b3sv" path="res://Pause Game/ui_pause.gd" id="1_papky"]
+
+[node name="Control" type="Control" unique_id=1444024070]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_papky")
+
+[node name="uiPausetransparentBackground" type="ColorRect" parent="." unique_id=1188473127]
+self_modulate = Color(0.13551384, 0.28852043, 0.05338806, 0.11372549)
+layout_mode = 0
+offset_left = -81.0
+offset_top = -46.0
+offset_right = 1207.0
+offset_bottom = 693.0
+
+[node name="ResumeGame" type="Button" parent="." unique_id=665520009]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 99.0
+offset_right = 737.0
+offset_bottom = 159.0
+text = "Resume Game"
+
+[node name="Settings" type="Button" parent="." unique_id=308706224]
+layout_mode = 0
+offset_left = 406.0
+offset_top = 400.0
+offset_right = 735.0
+offset_bottom = 460.0
+text = "Quit Game
+"
+
+[node name="LoadGame" type="Button" parent="." unique_id=1482845925]
+layout_mode = 0
+offset_left = 409.0
+offset_top = 295.0
+offset_right = 738.0
+offset_bottom = 355.0
+text = "Load Game"
+
+[node name="QuitGame" type="Button" parent="." unique_id=1725592423]
+layout_mode = 0
+offset_left = 410.0
+offset_top = 202.0
+offset_right = 739.0
+offset_bottom = 262.0
+text = "Quit Game"
