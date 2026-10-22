@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://duc3b6ta6aciw"]
+
+[ext_resource type="Script" uid="uid://d0hcvpjjuql7c" path="res://testing/testing_game_board.gd" id="1_sodkj"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_kxi2o"]
+
+[node name="TestingGameBoard" type="Node2D" unique_id=583967459]
+script = ExtResource("1_sodkj")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=822038255]
+color = Color(0.2, 0.23137255, 0.7137255, 1)
+texture = SubResource("CanvasTexture_kxi2o")
+polygon = PackedVector2Array(-64, -53, 1228, -47, 1217, 666, -54, 660)

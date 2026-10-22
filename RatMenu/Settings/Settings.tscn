@@ -1,0 +1,96 @@
+[gd_scene format=3 uid="uid://b7cirehtx55sy"]
+
+[node name="Control" type="Control" unique_id=2037862088]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1000175992]
+layout_mode = 0
+offset_left = 46.0
+offset_top = 39.0
+offset_right = 1114.0
+offset_bottom = 614.0
+color = Color(0.16078432, 0.7647059, 0, 0.42745098)
+
+[node name="MusicVolume" type="Label" parent="." unique_id=1230917703]
+modulate = Color(0.5372549, 1, 1, 1)
+layout_mode = 0
+offset_left = 90.0
+offset_top = 72.0
+offset_right = 198.0
+offset_bottom = 95.0
+scale = Vector2(2, 2)
+text = "Music  Volume"
+
+[node name="AudioSlider" type="HSlider" parent="MusicVolume" unique_id=171394740]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 6.0
+offset_right = 378.0
+offset_bottom = 22.0
+
+[node name="AudioVolume3" type="Label" parent="." unique_id=1108053565]
+modulate = Color(0.5372549, 1, 1, 1)
+layout_mode = 0
+offset_left = 89.0
+offset_top = 135.0
+offset_right = 197.0
+offset_bottom = 158.0
+scale = Vector2(2, 2)
+text = "Audio Volume"
+
+[node name="AudioSlider" type="HSlider" parent="AudioVolume3" unique_id=1850752246]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 6.0
+offset_right = 378.0
+offset_bottom = 22.0
+
+[node name="Brightness" type="Label" parent="." unique_id=1766098114]
+modulate = Color(0.5372549, 1, 1, 1)
+layout_mode = 0
+offset_left = 88.0
+offset_top = 198.0
+offset_right = 196.0
+offset_bottom = 221.0
+scale = Vector2(2, 2)
+text = "Brightness"
+
+[node name="AudioSlider" type="HSlider" parent="Brightness" unique_id=1015010531]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 6.0
+offset_right = 378.0
+offset_bottom = 22.0
+
+[node name="KeyBind" type="Button" parent="." unique_id=1884317421]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 296.0
+offset_right = 314.0
+offset_bottom = 367.0
+theme_override_font_sizes/font_size = 24
+text = "Key Bind"
+
+[node name="Language" type="Button" parent="." unique_id=1597113835]
+layout_mode = 0
+offset_left = 388.0
+offset_top = 296.0
+offset_right = 610.0
+offset_bottom = 367.0
+theme_override_font_sizes/font_size = 24
+text = "Language"
+
+[node name="Mod" type="Button" parent="." unique_id=748778425]
+layout_mode = 0
+offset_left = 675.0
+offset_top = 299.0
+offset_right = 897.0
+offset_bottom = 370.0
+theme_override_font_sizes/font_size = 24
+text = "Mod
+"

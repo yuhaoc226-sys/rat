@@ -33,8 +33,7 @@ offset_left = 406.0
 offset_top = 400.0
 offset_right = 735.0
 offset_bottom = 460.0
-text = "Quit Game
-"
+text = "Settings"
 
 [node name="LoadGame" type="Button" parent="." unique_id=1482845925]
 layout_mode = 0
@@ -51,3 +50,6 @@ offset_top = 202.0
 offset_right = 739.0
 offset_bottom = 262.0
 text = "Quit Game"
+
+[connection signal="button_down" from="ResumeGame" to="." method="_on_resume_game_button_down"]
+[connection signal="button_down" from="Settings" to="." method="_on_settings_button_down"]
