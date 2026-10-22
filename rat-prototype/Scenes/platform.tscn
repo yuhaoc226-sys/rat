@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://mcl5xvme1bqt"]
+
+[ext_resource type="Texture2D" uid="uid://dcngdo7sm618f" path="res://Assets/Platform(rat).png" id="1_1rc8e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
+size = Vector2(1022, 67)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cwrby"]
+size = Vector2(120, 269)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5t57w"]
+size = Vector2(104, 274)
+
+[node name="Platform" type="StaticBody2D" unique_id=2114638361]
+
+[node name="Platform(rat)" type="Sprite2D" parent="." unique_id=2110609259]
+position = Vector2(-4, -4)
+texture = ExtResource("1_1rc8e")
+
+[node name="Hitbox" type="CollisionShape2D" parent="." unique_id=20988413]
+position = Vector2(-4, -23.5)
+shape = SubResource("RectangleShape2D_kwx4u")
+
+[node name="LeftHitbox" type="CollisionShape2D" parent="." unique_id=379813263]
+position = Vector2(-454, -126)
+shape = SubResource("RectangleShape2D_cwrby")
+
+[node name="RightHitbox" type="CollisionShape2D" parent="." unique_id=188626869]
+position = Vector2(453, -125)
+shape = SubResource("RectangleShape2D_5t57w")
