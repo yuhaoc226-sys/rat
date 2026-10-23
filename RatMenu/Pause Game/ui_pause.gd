@@ -1,7 +1,7 @@
 extends Control
-
-signal resumeGame
-# Called when the node enters the scene tree for the first time.
+@onready var pausingUI = preload("res://Pause Game/uiPause.tscn")
+@onready var settingUI = preload("res://Settings/Settings.tscn")
+@onready var keyBindUI = preload("res://Settings/Settings.tscn")
 func _ready() -> void:
 	
 	pass # Replace with function body.
@@ -14,10 +14,10 @@ func _process(delta: float) -> void:
 
 
 func _on_settings_button_down() -> void:
-	get_tree().change_scene_to_file("res://Settings/Settings.tscn")
-	pass # Replace with function body.
+	$".".add_child(settingUI.instantiate())
+	#$".".visible = false
 
 
 func _on_resume_game_button_down() -> void:
-	resumeGame.emit()
+	$".".queue_free()
 	

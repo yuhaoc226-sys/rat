@@ -10,8 +10,11 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	_uiCall()
+	pass
+	
+func _uiCall() -> void:
 	if Input.is_action_just_pressed("openSettings"):
 		#$SubViewport.ClearMode = 0
 		#$SubViewport.size = Vector2(DisplayServer.screen_get_size())
 		$".".add_child(pausingUI.instantiate())
-	pass

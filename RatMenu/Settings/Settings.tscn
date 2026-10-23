@@ -1,12 +1,15 @@
 [gd_scene format=3 uid="uid://b7cirehtx55sy"]
 
-[node name="Control" type="Control" unique_id=2037862088]
+[ext_resource type="Script" uid="uid://dqg5tkuqjjppp" path="res://Settings/settings.gd" id="1_w44vd"]
+
+[node name="Settings" type="Control" unique_id=2037862088]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_w44vd")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1000175992]
 layout_mode = 0
@@ -94,3 +97,17 @@ offset_bottom = 370.0
 theme_override_font_sizes/font_size = 24
 text = "Mod
 "
+
+[node name="Save" type="Button" parent="." unique_id=2017223134]
+layout_mode = 0
+offset_left = 827.0
+offset_top = 510.0
+offset_right = 1049.0
+offset_bottom = 581.0
+theme_override_font_sizes/font_size = 24
+text = "Save
+
+"
+
+[connection signal="pressed" from="KeyBind" to="." method="_on_key_bind_pressed"]
+[connection signal="pressed" from="Save" to="." method="_on_save_pressed"]

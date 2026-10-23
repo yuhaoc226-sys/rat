@@ -1,0 +1,5 @@
+res://Settings/settings.gd
+res://Settings/Settings.tscn
+res://Pause Game/ui_pause.gd
+res://Settings/KeyBinds.tscn
+res://Settings/key_binds.gd
