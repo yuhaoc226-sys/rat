@@ -1,5 +1,4 @@
-res://Settings/settings.gd
-res://Settings/Settings.tscn
-res://Pause Game/ui_pause.gd
-res://Settings/KeyBinds.tscn
-res://Settings/key_binds.gd
+res://testing/testing_game_board.gd
+res://inventory/inventory.tscn
+res://inventory/inventory.gd
+res://inventory/inventoryGrid.gd

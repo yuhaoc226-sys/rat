@@ -1,8 +1,6 @@
 extends Node2D
 
 @onready var pausingUI = preload("res://Pause Game/uiPause.tscn")
-@onready var settingUI = preload("res://Settings/Settings.tscn")
-@onready var keyBindUI = preload("res://Settings/Settings.tscn")
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
