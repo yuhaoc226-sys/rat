@@ -1,8 +1,15 @@
 [gd_scene format=3 uid="uid://bohdbbxy7r7h8"]
 
+<<<<<<< HEAD
 [ext_resource type="PackedScene" uid="uid://bl7xr63uu5p6o" path="res://Scenes/rat.tscn" id="1_6phgx"]
 [ext_resource type="PackedScene" uid="uid://7alpcclw0fwr" path="res://Scenes/background.tscn" id="2_81xng"]
 [ext_resource type="PackedScene" uid="uid://mcl5xvme1bqt" path="res://Scenes/platform.tscn" id="3_wqkje"]
+=======
+[ext_resource type="PackedScene" uid="uid://bl7xr63uu5p6o" path="res://rat-prototype/Scenes/rat.tscn" id="1_6phgx"]
+[ext_resource type="PackedScene" uid="uid://7alpcclw0fwr" path="res://rat-prototype/Scenes/background.tscn" id="2_81xng"]
+[ext_resource type="PackedScene" uid="uid://mcl5xvme1bqt" path="res://rat-prototype/Scenes/platform.tscn" id="3_wqkje"]
+[ext_resource type="PackedScene" uid="uid://by3cvowcc1qay" path="res://rat-prototype/Scenes/walkie_talkie.tscn" id="4_81xng"]
+>>>>>>> 236f33e4b63ee4f170261f0b96b639a60888fe91
 
 [node name="Level" type="Node2D" unique_id=1200408699]
 position = Vector2(579, 339)

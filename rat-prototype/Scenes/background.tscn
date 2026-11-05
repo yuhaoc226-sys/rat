@@ -1,10 +1,8 @@
 [gd_scene format=3 uid="uid://7alpcclw0fwr"]
 
-[ext_resource type="Texture2D" uid="uid://b0a46ifyeysfh" path="res://Assets/box(rat bg).png" id="1_sn1xx"]
-
 [node name="Background" type="Node2D" unique_id=1198921022]
 
-[node name="Box(ratBg)" type="Sprite2D" parent="." unique_id=1237579293]
-position = Vector2(580.25, 319.75)
-scale = Vector2(1.5605652, 2.1421404)
-texture = ExtResource("1_sn1xx")
+[node name="ColorRect" type="ColorRect" parent="." unique_id=65133143]
+offset_right = 1158.0
+offset_bottom = 639.0
+mouse_filter = 2
