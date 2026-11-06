@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://7ki8obs6bsln"]
+
+[ext_resource type="Script" uid="uid://c1utshuihqavu" path="res://ui_forSettings/MenuANDui/inventory/item_list.gd" id="1_supc8"]
+
+[node name="Main" type="Control" unique_id=1449051994]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel3" type="Panel" parent="." unique_id=2086494403]
+layout_mode = 0
+offset_left = 58.0
+offset_top = 27.0
+offset_right = 1079.0
+offset_bottom = 621.0
+
+[node name="ItemList" type="ItemList" parent="." unique_id=549596344]
+layout_mode = 0
+offset_left = 341.0
+offset_top = 53.0
+offset_right = 1049.0
+offset_bottom = 600.0
+script = ExtResource("1_supc8")

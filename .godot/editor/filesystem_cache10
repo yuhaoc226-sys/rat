@@ -1,53 +1,53 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793907807
+::res://::1793992263
 README.md::TextFile::-1::1792693869::0::1::::<><><>0<>0<><>::
-::res://mergedGameVer1/::1793907549
-::res://mergedGameVer1/enemies/::1793820895
-::res://mergedGameVer1/enemies/enemiesAssets/::1793821119
-bombCat.png::CompressedTexture2D::6808314228770544791::1793299082::1793821119::1::::<><><>0<>0<>eabbf5db074394b0667bbfde289c1873<>res://.godot/imported/bombCat.png-fa53b33a433aa295c5956d51d6456048.ctex::
-::res://mergedGameVer1/enemies/enemiesTestScene/::1793299264
+::res://enemies/::1793820895
+::res://enemies/enemiesAssets/::1793992259
+bombCat.png::CompressedTexture2D::6808314228770544791::1793299082::1793992259::1::::<><><>0<>0<>b7d2164301cd4edf129367e5419f8104<>res://.godot/imported/bombCat.png-f99aff67083db57a7f7ec4ad65021716.ctex::
+::res://enemies/enemiesTestScene/::1793299264
 testPlatform.tscn::PackedScene::6298479860731911279::1793299264::0::1::::<><><>0<>0<><>::
-::res://mergedGameVer1/mapDesign/::1793907476
+::res://mapDesign/::1793992263
 character_body_2d.gd::GDScript::5294136677427350794::1793648438::0::1::::<>CharacterBody2D<><>0<>0<><>::
-character_body_2d.tscn::PackedScene::1519621653621750352::1793821192::0::1::::<><><>0<>0<><>::uid://chorwmgc1m20m::::res://mergedGameVer1/mapDesign/character_body_2d.gd<>uid://dl4fh5426ryqx::::res://mergedGameVer1/mapDesign/icon.svg
-icon.svg::CompressedTexture2D::7991523993255271215::1793646585::1793821119::1::::<><><>0<>0<>d9fb440e2347c2ce10827a6676b2383c<>res://.godot/imported/icon.svg-b4f7a0c0df12301514140a374951ab64.ctex::
-tile_map.tscn::PackedScene::6154987517238292279::1793907476::0::1::::<><><>0<>0<><>::uid://vwd7gj1tlm2c::::res://mergedGameVer1/mapDesign/character_body_2d.tscn
-::res://mergedGameVer1/MenuANDui/::1793821385
-::res://mergedGameVer1/MenuANDui/inventory/::1793298855
-item_list.gd::GDScript::6640225023142097230::1793298855::0::1::::<>ItemList<><>0<>0<><>::
-main.tscn::PackedScene::2267232178829658307::1793298855::0::1::::<><><>0<>0<><>::uid://c1utshuihqavu::::res://inventory/item_list.gd
-::res://mergedGameVer1/MenuANDui/Pause Game/::1792781022
-uiPause.tscn::PackedScene::5930520076127291461::1792694912::0::1::::<><><>0<>0<><>::uid://p1ahuca3b3sv::::res://Pause Game/ui_pause.gd
-ui_pause.gd::GDScript::1106520030327475633::1792781022::0::1::::<>Control<><>0<>0<><>::
-::res://mergedGameVer1/MenuANDui/rat-main/::1792694350
-README.md::TextFile::-1::1792694350::0::1::::<><><>0<>0<><>::
-::res://mergedGameVer1/MenuANDui/Settings/::1793126958
-KeyBinds.tscn::PackedScene::7422685092120270460::1792781396::0::1::::<><><>0<>0<><>::uid://buqetgtpek2hk::::res://Settings/key_binds.gd
-key_binds.gd::GDScript::3823504743752650004::1792781144::0::1::::<>Control<><>0<>0<><>::
-settings.gd::GDScript::8296525812548322081::1792781022::0::1::::<>Control<><>0<>0<><>::
-Settings.tscn::PackedScene::4637108751859026548::1793126958::0::1::::<><><>0<>0<><>::uid://dqg5tkuqjjppp::::res://Settings/settings.gd
-::res://mergedGameVer1/MenuANDui/testing/::1793038114
-testing gameBoard.tscn::PackedScene::8568871198556003678::1792694862::0::1::::<><><>0<>0<><>::uid://d0hcvpjjuql7c::::res://testing/testing_game_board.gd
-testing_game_board.gd::GDScript::8928593524155847054::1793038114::0::1::::<>Node2D<><>0<>0<><>::
+character_body_2d.tscn::PackedScene::1519621653621750352::1793992263::0::1::::<><><>0<>0<><>::uid://chorwmgc1m20m::::res://mapDesign/character_body_2d.gd<>uid://dl4fh5426ryqx::::res://mapDesign/icon.svg
+icon.svg::CompressedTexture2D::7991523993255271215::1793646585::1793992263::1::::<><><>0<>0<>c7e689d77231f17c7e8e5d103bd9a708<>res://.godot/imported/icon.svg-c8b491178915d94cf10003eaede3bc57.ctex::
+tile_map.tscn::PackedScene::6154987517238292279::1793992263::0::1::::<><><>0<>0<><>::uid://vwd7gj1tlm2c::::res://mapDesign/character_body_2d.tscn
 ::res://rat-prototype/::1793907760
 ::res://rat-prototype/Assets/::1793907761
 ::res://rat-prototype/Assets/Item Assets/::1793907761
-::res://rat-prototype/Assets/Rat Assets/::1793907761
+::res://rat-prototype/Assets/Rat Assets/::1793907807
 rat.webp::CompressedTexture2D::4154755818548142956::1793907424::1793907807::1::::<><><>0<>0<>4d40a8175006adf9bbfeb0ad0f55e160<>res://.godot/imported/rat.webp-83f827be3333bcdc2279f74f1fc88488.ctex::
-::res://rat-prototype/Assets/Stage Assets/::1793907761
+::res://rat-prototype/Assets/Stage Assets/::1793907807
 box(rat bg).png::CompressedTexture2D::4142958356052772921::1793907424::1793907807::1::::<><><>0<>0<>0e588f99e94113d1d0e33bff8a2d2051<>res://.godot/imported/box(rat bg).png-0d83217f5428384733a16b9d1e591bf3.ctex::
 Platform(rat).png::CompressedTexture2D::7326847094092225095::1793907424::1793907807::1::::<><><>0<>0<>289715bf28a9ad08e761787321ab719b<>res://.godot/imported/Platform(rat).png-30764e6001720741b00423384f72253e.ctex::
-::res://rat-prototype/Scenes/::1793907760
+::res://rat-prototype/Scenes/::1793908093
 background.tscn::PackedScene::2246737778912528153::1793907424::0::1::::<><><>0<>0<><>::
 level.tscn::PackedScene::3383699164863947223::1793907424::0::1::::<><><>0<>0<><>::
-pickup.tscn::PackedScene::7292842888461388525::1793907424::0::1::::<><><>0<>0<><>::uid://djtexlfssgee::::res://rat-prototype/Scripts/pickup.gd
+pickup.tscn::PackedScene::7292842888461388525::1793908093::0::1::::<><><>0<>0<><>::uid://djtexlfssgee::::res://rat-prototype/Scripts/pickup.gd
 platform.tscn::PackedScene::847117580931626247::1793907424::0::1::::<><><>0<>0<><>::
 rat.tscn::PackedScene::3225986573586392856::1793907424::0::1::::<><><>0<>0<><>::
-::res://rat-prototype/Scripts/::1793907760
+::res://rat-prototype/Scripts/::1793908093
 camera_2d.gd::GDScript::2996560194288137840::1793907424::0::1::::<>Camera2D<><>0<>0<><>::
 Global.gd::GDScript::889322969799740289::1793907424::0::1::::<>RefCounted<><>0<>0<><>::
 items.gd::GDScript::803518165891335366::1793907424::0::1::::gameItems<>RefCounted<><>0<>0<><>::
 pickup.gd::GDScript::230307922020665140::1793907424::0::1::::<>Node2D<><>0<>0<><>::
-rat.gd::GDScript::4415830830027390917::1793907424::0::1::::<>CharacterBody2D<><>0<>0<><>::
+rat.gd::GDScript::4415830830027390917::1793908093::0::1::::<>CharacterBody2D<><>0<>0<><>::
 ::res://rat-prototype/Storage/::1793907760
 playerInventory.json::JSON::-1::1793907424::0::1::::<><><>0<>0<><>::
+::res://ui_forSettings/::1793992262
+::res://ui_forSettings/MenuANDui/::1793821385
+::res://ui_forSettings/MenuANDui/inventory/::1793992242
+item_list.gd::GDScript::6640225023142097230::1793298855::0::1::::<>ItemList<><>0<>0<><>::
+main.tscn::PackedScene::2267232178829658307::1793992242::0::1::::<><><>0<>0<><>::uid://c1utshuihqavu::::res://ui_forSettings/MenuANDui/inventory/item_list.gd
+::res://ui_forSettings/MenuANDui/Pause Game/::1793992242
+uiPause.tscn::PackedScene::5930520076127291461::1793992242::0::1::::<><><>0<>0<><>::uid://p1ahuca3b3sv::::res://ui_forSettings/MenuANDui/Pause Game/ui_pause.gd
+ui_pause.gd::GDScript::1106520030327475633::1792781022::0::1::::<>Control<><>0<>0<><>::
+::res://ui_forSettings/MenuANDui/rat-main/::1792694350
+README.md::TextFile::-1::1792694350::0::1::::<><><>0<>0<><>::
+::res://ui_forSettings/MenuANDui/Settings/::1793992242
+KeyBinds.tscn::PackedScene::7422685092120270460::1793992242::0::1::::<><><>0<>0<><>::uid://buqetgtpek2hk::::res://ui_forSettings/MenuANDui/Settings/key_binds.gd
+key_binds.gd::GDScript::3823504743752650004::1792781144::0::1::::<>Control<><>0<>0<><>::
+settings.gd::GDScript::8296525812548322081::1793908197::0::1::::<>Control<><>0<>0<><>::
+Settings.tscn::PackedScene::4637108751859026548::1793992242::0::1::::<><><>0<>0<><>::uid://dqg5tkuqjjppp::::res://ui_forSettings/MenuANDui/Settings/settings.gd
+::res://ui_forSettings/MenuANDui/testing/::1793992242
+testing gameBoard.tscn::PackedScene::8568871198556003678::1793992242::0::1::::<><><>0<>0<><>::uid://d0hcvpjjuql7c::::res://ui_forSettings/MenuANDui/testing/testing_game_board.gd
+testing_game_board.gd::GDScript::8928593524155847054::1793038114::0::1::::<>Node2D<><>0<>0<><>::

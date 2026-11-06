@@ -1,0 +1,16 @@
+res://mergedGameVer1/mapDesign/character_body_2d.tscn
+res://mergedGameVer1/mapDesign/tile_map.tscn
+res://mergedGameVer1/MenuANDui/Settings/Settings.tscn
+res://mergedGameVer1/MenuANDui/Settings/KeyBinds.tscn
+res://mergedGameVer1/MenuANDui/Pause Game/uiPause.tscn
+res://mergedGameVer1/MenuANDui/inventory/main.tscn
+res://mergedGameVer1/MenuANDui/testing/testing gameBoard.tscn
+res://ui_forSettings/mapDesign/character_body_2d.tscn
+res://ui_forSettings/MenuANDui/Pause Game/uiPause.tscn
+res://ui_forSettings/MenuANDui/Pause Game/ui_pause.gd
+res://ui_forSettings/MenuANDui/Settings/Settings.tscn
+res://ui_forSettings/MenuANDui/Settings/settings.gd
+res://ui_forSettings/MenuANDui/testing/testing gameBoard.tscn
+res://ui_forSettings/MenuANDui/testing/testing_game_board.gd
+res://ui_forSettings/MenuANDui/Settings/KeyBinds.tscn
+res://rat-prototype/Scenes/platform.tscn
