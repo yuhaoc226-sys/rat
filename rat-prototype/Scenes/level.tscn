@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b0kf70lllhk3"]
+
+[ext_resource type="PackedScene" uid="uid://7alpcclw0fwr" path="res://rat-prototype/Scenes/background.tscn" id="1_sp6m1"]
+[ext_resource type="PackedScene" uid="uid://dxyv25f3w66v7" path="res://rat-prototype/Scenes/rat.tscn" id="2_px78y"]
+[ext_resource type="PackedScene" uid="uid://mcl5xvme1bqt" path="res://rat-prototype/Scenes/platform.tscn" id="3_5msjv"]
+
+[node name="Level" type="Node2D" unique_id=455165040]
+position = Vector2(554, 362)
+
+[node name="Background" parent="." unique_id=1198921022 instance=ExtResource("1_sp6m1")]
+position = Vector2(-552, -361)
+
+[node name="Rat" parent="." unique_id=1261729127 instance=ExtResource("2_px78y")]
+position = Vector2(3, -44)
+
+[node name="Platform" parent="." unique_id=2114638361 instance=ExtResource("3_5msjv")]
+position = Vector2(47, 111)
