@@ -1,17 +1,18 @@
 [gd_scene format=3 uid="uid://vwd7gj1tlm2c"]
 
-[ext_resource type="Script" uid="uid://chorwmgc1m20m" path="res://mapDesign/character_body_2d.gd" id="1_58cjn"]
-[ext_resource type="Texture2D" uid="uid://dl4fh5426ryqx" path="res://mapDesign/icon.svg" id="2_nfpfy"]
+[ext_resource type="Script" uid="uid://b36cdaoygob4x" path="res://rat-prototype/Scripts/rat.gd" id="1_qvp0m"]
+[ext_resource type="Texture2D" uid="uid://b0guhr3r7oqim" path="res://rat-prototype/Assets/Rat Assets/rat.webp" id="2_0ipfs"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kxi2o"]
 size = Vector2(130, 66)
 
-[node name="CharacterBody2D" type="CharacterBody2D" unique_id=644965836]
-script = ExtResource("1_58cjn")
+[node name="Rat" type="CharacterBody2D" unique_id=644965836]
+script = ExtResource("1_qvp0m")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1855655282]
-scale = Vector2(1, 0.4921875)
-texture = ExtResource("2_nfpfy")
+[node name="Rat" type="Sprite2D" parent="." unique_id=1344717567]
+position = Vector2(-8, 2.9999998)
+scale = Vector2(0.41428575, 0.3357143)
+texture = ExtResource("2_0ipfs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=125996206]
 shape = SubResource("RectangleShape2D_kxi2o")

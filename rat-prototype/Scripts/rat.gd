@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 var speed = 300.0
 var jump_velocity = -400.0
+
 var second_jump = true
 
 var items = []
