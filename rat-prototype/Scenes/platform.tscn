@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://ctvbht2xmen24"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
+size = Vector2(1022, 67)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cwrby"]
+size = Vector2(120, 269)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5t57w"]
+size = Vector2(104, 274)
+
+[node name="Platform" type="StaticBody2D" unique_id=2114638361]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1393060772]
+offset_left = -514.0
+offset_top = -57.0
+offset_right = 505.0
+offset_bottom = 10.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Hitbox" type="CollisionShape2D" parent="." unique_id=20988413]
+position = Vector2(-4, -23.5)
+shape = SubResource("RectangleShape2D_kwx4u")
+
+[node name="LeftHitbox" type="CollisionShape2D" parent="." unique_id=379813263]
+position = Vector2(-454, -126)
+shape = SubResource("RectangleShape2D_cwrby")
+
+[node name="RightHitbox" type="CollisionShape2D" parent="." unique_id=188626869]
+position = Vector2(453, -125)
+shape = SubResource("RectangleShape2D_5t57w")

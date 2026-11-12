@@ -1,3 +1,12 @@
 [gd_scene format=3 uid="uid://dbv8k43synsqf"]
 
-[node name="GrasslandDemo" type="Node2D" unique_id=205229202]
+[ext_resource type="PackedScene" uid="uid://ccwbnynlpmnst" path="res://rat-prototype/Scenes/rat.tscn" id="1_bakuo"]
+
+[sub_resource type="TileSet" id="TileSet_kxi2o"]
+
+[node name="GrasslandDemo" type="TileMapLayer" unique_id=746869996]
+tile_set = SubResource("TileSet_kxi2o")
+
+[node name="Rat" parent="." unique_id=147440417 instance=ExtResource("1_bakuo")]
+
+[node name="Camera2D" type="Camera2D" parent="Rat" unique_id=1744448181]

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://c4ekbuqavc87s"]
+
+[node name="Background" type="Node2D" unique_id=1198921022]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=65133143]
+offset_right = 1158.0
+offset_bottom = 639.0
+mouse_filter = 2
