@@ -4,18 +4,18 @@
 [ext_resource type="Texture2D" uid="uid://b0guhr3r7oqim" path="res://rat and level/Rat Assets/rat.webp" id="1_uiird"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
-size = Vector2(162, 82)
+size = Vector2(61, 32)
 
 [node name="Rat" type="CharacterBody2D" unique_id=147440417]
 script = ExtResource("1_ikqqy")
 
 [node name="Rat" type="Sprite2D" parent="." unique_id=280076226]
-position = Vector2(2, 0)
-scale = Vector2(0.52428573, 0.5114286)
+position = Vector2(-3, -1)
+scale = Vector2(0.19214287, 0.18857144)
 texture = ExtResource("1_uiird")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=182329663]
-position = Vector2(8, -1)
+position = Vector2(-1.5, -2)
 shape = SubResource("RectangleShape2D_kwx4u")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=158004194]

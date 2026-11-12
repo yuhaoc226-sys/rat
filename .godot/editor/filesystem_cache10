@@ -1,5 +1,5 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794510677
+::res://::1794511338
 LICENSE.txt::TextFile::-1::1794338738::0::1::::<><><>0<>0<><>::
 pack.json::JSON::-1::1794338738::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1793992759::0::1::::<><><>0<>0<><>::
@@ -32,12 +32,14 @@ verdant-00-sample_B.png::CompressedTexture2D::2977501922181463850::1794338738::1
 autotile_dirt.png::CompressedTexture2D::3435692875514098770::1794338738::1794338738::1::::<><><>0<>0<>b4e586d77f8e27b0ed44096f37d76375<>res://.godot/imported/autotile_dirt.png-864b58f6686386b161d379650f692a04.ctex::
 props.png::CompressedTexture2D::611249624941506058::1794338738::1794338738::1::::<><><>0<>0<>35c4530974a9e0aa43890dc39739f80b<>res://.godot/imported/props.png-6f4fbf9857a1e6640bd54cf954eca5cc.ctex::
 terrain.png::CompressedTexture2D::98268879026435464::1794338738::1794338738::1::::<><><>0<>0<>50c6e24e0b1fab7d1a80056ed9df1c66<>res://.godot/imported/terrain.png-7cdd4120066b1898ccec70797c16d38a.ctex::
-::res://mapDesign/::1794339398
+::res://mapDesign/::1794511022
 character_body_2d.gd::GDScript::5294136677427350794::1793994365::0::1::::<>CharacterBody2D<><>0<>0<><>::
 character_body_2d.tscn::PackedScene::1519621653621750352::1794339398::0::1::::<><><>0<>0<><>::uid://b36cdaoygob4x::::res://rat and level/Scripts/rat.gd<>uid://b0guhr3r7oqim::::res://rat and level/Rat Assets/rat.webp
 icon.svg::CompressedTexture2D::7991523993255271215::1793994365::1793994433::1::::<><><>0<>0<>c7e689d77231f17c7e8e5d103bd9a708<>res://.godot/imported/icon.svg-c8b491178915d94cf10003eaede3bc57.ctex::
 testing.tscn::PackedScene::1583006499383682251::1794338738::0::1::::<><><>0<>0<><>::uid://dl4fh5426ryqx::::res://mapDesign/icon.svg<>uid://vwd7gj1tlm2c::::res://mapDesign/character_body_2d.tscn
 tile_map.tscn::PackedScene::2006409575323326085::1794338828::0::1::::<><><>0<>0<><>::uid://vwd7gj1tlm2c::::res://mapDesign/character_body_2d.tscn
+::res://mapDesign/yuhaosTestingMapDONTOUCH/::1794511317
+grasslandDemo.tscn::PackedScene::7274825913535052949::1794511317::0::1::::<><><>0<>0<><>::uid://ccwbnynlpmnst::::res://rat-prototype/Scenes/rat.tscn
 ::res://proof/::1794338738
 field_dirt_1.png::CompressedTexture2D::7115563096774360845::1794338738::1794338738::1::::<><><>0<>0<>fadc9802fcaab26cedb0c7e67d9c37d1<>res://.godot/imported/field_dirt_1.png-79e8d9bf666302e3828d7223b2678c29.ctex::
 field_dirt_2.png::CompressedTexture2D::2519288603728532637::1794338738::1794338738::1::::<><><>0<>0<>36c4547e4e2de2303434d8c162825e90<>res://.godot/imported/field_dirt_2.png-ade22466f804fb6969485bac6500f687.ctex::
@@ -72,6 +74,12 @@ Global.gd::GDScript::889322969799740289::1794510567::0::1::::<>RefCounted<><>0<>
 items.gd::GDScript::803518165891335366::1793992759::0::1::::gameItems<>RefCounted<><>0<>0<><>::
 pickup.gd::GDScript::230307922020665140::1793992759::0::1::::<>Node2D<><>0<>0<><>::
 rat.gd::GDScript::4415830830027390917::1793994371::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://rat-prototype/::1794511317
+::res://rat-prototype/Scenes/::1794511317
+background.tscn::PackedScene::6817185374839004342::1794511317::0::1::::<><><>0<>0<><>::
+pickup.tscn::PackedScene::5130135183164593286::1794511317::0::1::::<><><>0<>0<><>::res://rat-prototype/Scripts/pickup.gd
+platform.tscn::PackedScene::6149855587608769383::1794511317::0::1::::<><><>0<>0<><>::
+rat.tscn::PackedScene::4958720578728294939::1794511317::0::1::::<><><>0<>0<><>::res://rat-prototype/Scripts/rat.gd<>res://rat-prototype/Assets/Rat Assets/rat.webp
 ::res://sample_maps/::1794338738
 sample_map_01.json::JSON::-1::1794338738::0::1::::<><><>0<>0<><>::
 sample_map_01.png::CompressedTexture2D::760027544475128246::1794338738::1794338738::1::::<><><>0<>0<>183c81f95b9eb195ca204e627e5df582<>res://.godot/imported/sample_map_01.png-9ba1635e556de6ec147c0d61d1ead7c6.ctex::
