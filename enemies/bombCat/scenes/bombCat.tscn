@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bs2xew3g5lcjr"]
+
+[ext_resource type="Texture2D" uid="uid://c38868m7ay4c6" path="res://enemies/bombCat/assets/bombCat.png" id="1_vgotk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
+size = Vector2(54, 43)
+
+[node name="BombCat" type="Node2D" unique_id=1472956482]
+
+[node name="BombCat" type="Sprite2D" parent="." unique_id=519711594]
+position = Vector2(33, 34)
+texture = ExtResource("1_vgotk")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1822089807]
+position = Vector2(32, 38.5)
+shape = SubResource("RectangleShape2D_kwx4u")
