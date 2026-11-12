@@ -1,4 +1,2 @@
-res://mapDesign/testing.tscn
-res://mapDesign/character_body_2d.gd
-res://rat-prototype/Scripts/rat.gd
-res://rat-prototype/Scenes/rat.tscn
+res://ui_forSettings/MenuANDui/Settings/KeyBinds.tscn
+res://rat-prototype/Scripts/Global.gd
