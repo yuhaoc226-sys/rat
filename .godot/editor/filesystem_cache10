@@ -7,8 +7,9 @@ Readme_for_Users.md::TextFile::-1::1794338738::0::1::::<><><>0<>0<><>::
 tiles.json::JSON::-1::1794338738::0::1::::<><><>0<>0<><>::
 ::res://enemies/::1794339827
 ::res://enemies/bomb/::1794339842
-::res://enemies/bomb/assets/::1794339835
-::res://enemies/bomb/scenes/::1794340093
+::res://enemies/bomb/assets/::1794512528
+bomb.png::CompressedTexture2D::9000657062084125171::1794512528::1794512528::1::::<><><>0<>0<>0b12a9d8a2b80aee7099646a9feaebed<>res://.godot/imported/bomb.png-eb08bd8c574ca09dbb4b5f37ff69fe82.ctex::
+::res://enemies/bomb/scenes/::1794512482
 bomb.tscn::PackedScene::4425486837641693888::1794340093::0::1::::<><><>0<>0<><>::
 ::res://enemies/bombCat/::1794339780
 ::res://enemies/bombCat/assets/::1794339762
@@ -32,11 +33,11 @@ verdant-00-sample_B.png::CompressedTexture2D::2977501922181463850::1794338738::1
 autotile_dirt.png::CompressedTexture2D::3435692875514098770::1794338738::1794338738::1::::<><><>0<>0<>b4e586d77f8e27b0ed44096f37d76375<>res://.godot/imported/autotile_dirt.png-864b58f6686386b161d379650f692a04.ctex::
 props.png::CompressedTexture2D::611249624941506058::1794338738::1794338738::1::::<><><>0<>0<>35c4530974a9e0aa43890dc39739f80b<>res://.godot/imported/props.png-6f4fbf9857a1e6640bd54cf954eca5cc.ctex::
 terrain.png::CompressedTexture2D::98268879026435464::1794338738::1794338738::1::::<><><>0<>0<>50c6e24e0b1fab7d1a80056ed9df1c66<>res://.godot/imported/terrain.png-7cdd4120066b1898ccec70797c16d38a.ctex::
-::res://mapDesign/::1794511022
+::res://mapDesign/::1794511884
 character_body_2d.gd::GDScript::5294136677427350794::1793994365::0::1::::<>CharacterBody2D<><>0<>0<><>::
 character_body_2d.tscn::PackedScene::1519621653621750352::1794339398::0::1::::<><><>0<>0<><>::uid://b36cdaoygob4x::::res://rat and level/Scripts/rat.gd<>uid://b0guhr3r7oqim::::res://rat and level/Rat Assets/rat.webp
 icon.svg::CompressedTexture2D::7991523993255271215::1793994365::1793994433::1::::<><><>0<>0<>c7e689d77231f17c7e8e5d103bd9a708<>res://.godot/imported/icon.svg-c8b491178915d94cf10003eaede3bc57.ctex::
-testing.tscn::PackedScene::1583006499383682251::1794338738::0::1::::<><><>0<>0<><>::uid://dl4fh5426ryqx::::res://mapDesign/icon.svg<>uid://vwd7gj1tlm2c::::res://mapDesign/character_body_2d.tscn
+testing.tscn::PackedScene::1583006499383682251::1794511884::0::1::::<><><>0<>0<><>::uid://dl4fh5426ryqx::::res://mapDesign/icon.svg<>uid://dxyv25f3w66v7::::res://rat and level/Scenes/rat.tscn
 tile_map.tscn::PackedScene::2006409575323326085::1794338828::0::1::::<><><>0<>0<><>::uid://vwd7gj1tlm2c::::res://mapDesign/character_body_2d.tscn
 ::res://mapDesign/yuhaosTestingMapDONTOUCH/::1794511317
 grasslandDemo.tscn::PackedScene::7274825913535052949::1794511317::0::1::::<><><>0<>0<><>::uid://ccwbnynlpmnst::::res://rat-prototype/Scenes/rat.tscn
@@ -63,12 +64,12 @@ grass_4_4x4.png::CompressedTexture2D::794879764128775591::1794338738::1794338738
 ::res://rat and level/::1794339278
 ::res://rat and level/Rat Assets/::1794339399
 rat.webp::CompressedTexture2D::4154755818548142956::1793992759::1794339399::1::::<><><>0<>0<>685a5c940d4c5145ab3ca0967be1a6ae<>res://.godot/imported/rat.webp-7eb97e56b2f73829fd8f076ece16e5e9.ctex::
-::res://rat and level/Scenes/::1794339398
+::res://rat and level/Scenes/::1794511854
 background.tscn::PackedScene::2246737778912528153::1793992759::0::1::::<><><>0<>0<><>::
 level.tscn::PackedScene::122416106268961076::1794339398::0::1::::<><><>0<>0<><>::uid://7alpcclw0fwr::::res://rat and level/Scenes/background.tscn<>uid://dxyv25f3w66v7::::res://rat and level/Scenes/rat.tscn<>uid://mcl5xvme1bqt::::res://rat and level/Scenes/platform.tscn
 pickup.tscn::PackedScene::7292842888461388525::1794339398::0::1::::<><><>0<>0<><>::uid://djtexlfssgee::::res://rat and level/Scripts/pickup.gd
 platform.tscn::PackedScene::847117580931626247::1793992759::0::1::::<><><>0<>0<><>::
-rat.tscn::PackedScene::8824475378862383230::1794339398::0::1::::<><><>0<>0<><>::uid://b36cdaoygob4x::::res://rat and level/Scripts/rat.gd<>uid://b0guhr3r7oqim::::res://rat and level/Rat Assets/rat.webp
+rat.tscn::PackedScene::8824475378862383230::1794511854::0::1::::<><><>0<>0<><>::uid://b36cdaoygob4x::::res://rat and level/Scripts/rat.gd<>uid://b0guhr3r7oqim::::res://rat and level/Rat Assets/rat.webp
 ::res://rat and level/Scripts/::1794510567
 Global.gd::GDScript::889322969799740289::1794510567::0::1::::<>RefCounted<><>0<>0<><>::
 items.gd::GDScript::803518165891335366::1793992759::0::1::::gameItems<>RefCounted<><>0<>0<><>::
