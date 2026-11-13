@@ -13,12 +13,16 @@ config_version=5
 config/name="enemiesDesign"
 run/main_scene="uid://b0kf70lllhk3"
 config/features=PackedStringArray("4.7", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/shared/icon.svg"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="enemiesDesign"
 
 [input]
 
