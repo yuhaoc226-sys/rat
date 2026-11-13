@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b4b0eevdtu60c"]
+
+[ext_resource type="Texture2D" uid="uid://d1h8rh4jgekkx" path="res://Joel_Enemies/bomb/assets/bomb.png" id="1_7231s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kwx4u"]
+radius = 31.016125
+
+[node name="Bomb" type="Node2D" unique_id=817390296]
+
+[node name="Bomb" type="Sprite2D" parent="." unique_id=1072257702]
+position = Vector2(28, 80.00001)
+scale = Vector2(0.3325123, 0.3339921)
+texture = ExtResource("1_7231s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=832593250]
+position = Vector2(25, 92)
+shape = SubResource("CircleShape2D_kwx4u")
