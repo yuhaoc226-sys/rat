@@ -13,8 +13,9 @@ func _process(delta: float) -> void:
 
 
 func _on_settings_button_down() -> void:
-	$".".add_child(settingUI.instantiate())
-	#$".".visible = false
+	var settings_instance = settingUI.instantiate()
+	settings_instance.name = "Settings"
+	add_child(settings_instance)
 
 
 func _on_resume_game_button_down() -> void:

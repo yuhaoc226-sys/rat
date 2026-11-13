@@ -13,6 +13,9 @@ func _process(delta: float) -> void:
 	
 func _uiCall() -> void:
 	if Input.is_action_just_pressed("openSettings"):
-		#$SubViewport.ClearMode = 0
-		#$SubViewport.size = Vector2(DisplayServer.screen_get_size())
-		$".".add_child(pausingUI.instantiate())
+		if has_node("uiPause"):
+			return
+
+		var pause_instance = pausingUI.instantiate()
+		pause_instance.name = "uiPause"
+		add_child(pause_instance)
