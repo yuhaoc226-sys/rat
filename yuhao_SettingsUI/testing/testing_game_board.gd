@@ -14,8 +14,11 @@ func _process(delta: float) -> void:
 func _uiCall() -> void:
 	if Input.is_action_just_pressed("openSettings"):
 		if has_node("uiPause"):
+			get_node("uiPause").queue_free()
+			get_tree().paused = false
 			return
 
 		var pause_instance = pausingUI.instantiate()
 		pause_instance.name = "uiPause"
+		
 		add_child(pause_instance)

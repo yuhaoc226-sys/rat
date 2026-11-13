@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://b36cdaoygob4x" path="res://Joel_Player/scripts/rat.gd" id="1_ikqqy"]
 [ext_resource type="Texture2D" uid="uid://b0guhr3r7oqim" path="res://Joel_Player/assets/rat.webp" id="1_uiird"]
+[ext_resource type="PackedScene" uid="uid://duc3b6ta6aciw" path="res://yuhao_SettingsUI/testing/testing gameBoard.tscn" id="3_qaslg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
 size = Vector2(61, 32)
@@ -19,3 +20,6 @@ position = Vector2(-1.5, -2)
 shape = SubResource("RectangleShape2D_kwx4u")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=158004194]
+
+[node name="TestingGameBoard" parent="Camera2D" unique_id=583967459 instance=ExtResource("3_qaslg")]
+position = Vector2(-575, -323)
