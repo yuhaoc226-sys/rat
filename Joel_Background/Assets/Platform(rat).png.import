@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0a46ifyeysfh"
-path="res://.godot/imported/box(rat bg).png-2fcf174f80eca18097441e0dd3f510b5.ctex"
+uid="uid://dcngdo7sm618f"
+path="res://.godot/imported/Platform(rat).png-3fa77d0a6d8e24ef0dffbc50ac179b95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Joel/stage/box(rat bg).png"
-dest_files=["res://.godot/imported/box(rat bg).png-2fcf174f80eca18097441e0dd3f510b5.ctex"]
+source_file="res://Joel_Background/Assets/Platform(rat).png"
+dest_files=["res://.godot/imported/Platform(rat).png-3fa77d0a6d8e24ef0dffbc50ac179b95.ctex"]
 
 [params]
 
