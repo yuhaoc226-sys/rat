@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://db5yb60oqnfwf"]
 
-[ext_resource type="Script" uid="uid://djtexlfssgee" path="res://Joel_Player/scripts/pickup.gd" id="1_iqk3k"]
+[ext_resource type="Script" uid="uid://djtexlfssgee" path="res://Kerui_Inventory/scripts/pickup.gd" id="1_iqk3k"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iqk3k"]
 size = Vector2(116, 118)
