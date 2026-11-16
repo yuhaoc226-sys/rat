@@ -5,18 +5,16 @@
 [ext_resource type="PackedScene" uid="uid://duc3b6ta6aciw" path="res://yuhao_SettingsUI/testing/testing gameBoard.tscn" id="3_qaslg"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kwx4u"]
-size = Vector2(61, 32)
+size = Vector2(116, 58)
 
 [node name="Rat" type="CharacterBody2D" unique_id=147440417]
 script = ExtResource("1_ikqqy")
 
 [node name="Rat" type="Sprite2D" parent="." unique_id=280076226]
-position = Vector2(-3, -1)
-scale = Vector2(0.19214287, 0.18857144)
+scale = Vector2(0.37232143, 0.35428575)
 texture = ExtResource("1_uiird")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=182329663]
-position = Vector2(-1.5, -2)
 shape = SubResource("RectangleShape2D_kwx4u")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=158004194]
