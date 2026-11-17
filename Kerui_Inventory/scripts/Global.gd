@@ -15,6 +15,13 @@ func pushToJSONDB(array):
 			"description" : item.description
 		})
 	var converted_json = JSON.stringify(json_push)
-	var file_ref = FileAccess.open("res://Joel_Player/prototype/Storage/playerInventory.json", FileAccess.WRITE)
+	var file_ref = FileAccess.open("res://Kerui_Inventory/data/playerInventory.json", FileAccess.WRITE)
 	file_ref.store_string(converted_json)
 	file_ref.close()
+func pullFromJSONDB():
+	var arrayOfItemsFromDB = []
+	var dictFromFile = JSON.parse_string(
+		FileAccess.get_file_as_string("res://Kerui_Inventory/data/playerInventory.json"))
+	for item in dictFromFile["items"]:
+		arrayOfItemsFromDB.append(gameItems.new(item["name"], item["id"]))
+	return arrayOfItemsFromDB
