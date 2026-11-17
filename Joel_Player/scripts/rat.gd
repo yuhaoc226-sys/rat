@@ -4,16 +4,18 @@ var speed = 300.0
 var jump_velocity = -400.0
 
 var second_jump = true
-
-var items = []
+var items = null
 signal pickup(item)
 
 
 
 func _ready() -> void:
-	pass
 	#Global.playerRef = self
-
+	#items = Global.pullFromJSONDB()
+	#while(true):
+	#	await get_tree().create_timer(2.5).timeout
+	#	items[0].printOutItemPropterties()
+	pass
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	speed = 300.0
