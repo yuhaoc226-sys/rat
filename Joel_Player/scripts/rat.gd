@@ -4,43 +4,46 @@ var speed = 300.0
 var jump_velocity = -400.0
 
 var second_jump = true
+var paused = false
 
 var items = []
 signal pickup(item)
-
-
 
 func _ready() -> void:
 	pass
 	#Global.playerRef = self
 
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	speed = 300.0
-	if not is_on_floor():
-		velocity += get_gravity() * delta
+	if (!paused):
+		# Add the gravity.
+		speed = 300.0
+		if not is_on_floor():
+			velocity += get_gravity() * delta
 
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = jump_velocity
-	
-	if Input.is_action_just_pressed("ui_accept") and not is_on_floor():
-		if (second_jump == true):
+		# Handle jump.
+		if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 			velocity.y = jump_velocity
-			second_jump = false
-	
-	if is_on_floor():
-		second_jump = true
 		
-	if Input.is_action_pressed("sprint"):
-		speed = 500.0
+		if Input.is_action_just_pressed("ui_accept") and not is_on_floor():
+			if (second_jump == true):
+				velocity.y = jump_velocity
+				second_jump = false
+		
+		if is_on_floor():
+			second_jump = true
+			
+		if Input.is_action_pressed("sprint"):
+			speed = 500.0
 
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * speed
-	else:
-		velocity.x = move_toward(velocity.x, 0, speed)
+		# Get the input direction and handle the movement/deceleration.
+		# As good practice, you should replace UI actions with custom gameplay actions.
+		var direction := Input.get_axis("ui_left", "ui_right")
+		if direction:
+			velocity.x = direction * speed
+		else:
+			velocity.x = move_toward(velocity.x, 0, speed)
 
-	move_and_slide()
+		move_and_slide()
+
+func _on_testing_game_board_game_paused() -> void:
+	paused = !paused

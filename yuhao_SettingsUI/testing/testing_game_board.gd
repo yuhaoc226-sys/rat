@@ -1,6 +1,7 @@
 extends Node2D
 
 @onready var pausingUI = preload("res://yuhao_SettingsUI/pause/uiPause.tscn")
+signal gamePaused
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
@@ -13,6 +14,7 @@ func _process(delta: float) -> void:
 	
 func _uiCall() -> void:
 	if Input.is_action_just_pressed("openSettings"):
+		gamePaused.emit()
 		if has_node("uiPause"):
 			get_node("uiPause").queue_free()
 			get_tree().paused = false

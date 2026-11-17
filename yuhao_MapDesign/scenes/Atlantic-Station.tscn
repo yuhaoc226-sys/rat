@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://upkyblcmb4ar"]
 
 [ext_resource type="Texture2D" uid="uid://ngxbxon45pe" path="res://assets/third_party/verdant_tileset/godot/autotile_dirt.png" id="1_fyjty"]
+[ext_resource type="PackedScene" uid="uid://dxyv25f3w66v7" path="res://Scenes/rat.tscn" id="2_2fw4k"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nks71"]
 texture = ExtResource("1_fyjty")
@@ -113,3 +114,6 @@ tile_set = SubResource("TileSet_3snay")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1411290184]
 position = Vector2(-1790.5796, 559.46)
+
+[node name="Rat" parent="." unique_id=147440417 instance=ExtResource("2_2fw4k")]
+position = Vector2(183, 152)

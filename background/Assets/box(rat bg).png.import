@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0a46ifyeysfh"
-path="res://.godot/imported/box(rat bg).png-d17c1aceec92115f6512de6f49143ccb.ctex"
+path="res://.godot/imported/box(rat bg).png-169762d3a5f211472d0fedd3759f2e1f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Joel_Background/Assets/box(rat bg).png"
-dest_files=["res://.godot/imported/box(rat bg).png-d17c1aceec92115f6512de6f49143ccb.ctex"]
+source_file="res://background/Assets/box(rat bg).png"
+dest_files=["res://.godot/imported/box(rat bg).png-169762d3a5f211472d0fedd3759f2e1f.ctex"]
 
 [params]
 
