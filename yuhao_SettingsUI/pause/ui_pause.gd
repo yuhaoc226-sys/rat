@@ -1,6 +1,7 @@
 extends Control
 @onready var pausingUI = preload("res://yuhao_SettingsUI/pause/uiPause.tscn")
 @onready var settingUI = preload("res://yuhao_SettingsUI/settings/Settings.tscn")
+signal unpaused
 func _ready() -> void:
 	
 	pass # Replace with function body.

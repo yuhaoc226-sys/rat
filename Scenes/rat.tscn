@@ -8,6 +8,7 @@
 size = Vector2(116, 58)
 
 [node name="Rat" type="CharacterBody2D" unique_id=147440417]
+scale = Vector2(0.38, 0.38)
 script = ExtResource("1_ikqqy")
 
 [node name="Rat" type="Sprite2D" parent="." unique_id=280076226]
@@ -21,3 +22,5 @@ shape = SubResource("RectangleShape2D_kwx4u")
 
 [node name="TestingGameBoard" parent="Camera2D" unique_id=583967459 instance=ExtResource("3_qaslg")]
 position = Vector2(-575, -323)
+
+[connection signal="gamePaused" from="Camera2D/TestingGameBoard" to="." method="_on_testing_game_board_game_paused"]

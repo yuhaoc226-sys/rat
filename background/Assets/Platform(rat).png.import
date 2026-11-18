@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcngdo7sm618f"
-path="res://.godot/imported/Platform(rat).png-3fa77d0a6d8e24ef0dffbc50ac179b95.ctex"
+path="res://.godot/imported/Platform(rat).png-2a87d3c49c8f8a0ecfaade0fa584061e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Joel_Background/Assets/Platform(rat).png"
-dest_files=["res://.godot/imported/Platform(rat).png-3fa77d0a6d8e24ef0dffbc50ac179b95.ctex"]
+source_file="res://background/Assets/Platform(rat).png"
+dest_files=["res://.godot/imported/Platform(rat).png-2a87d3c49c8f8a0ecfaade0fa584061e.ctex"]
 
 [params]
 

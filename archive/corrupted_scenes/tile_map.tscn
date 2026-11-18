@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://3t6jjc6bt7wr"]
+[gd_scene format=3 uid="uid://dpyirnmwtryfi"]
 
-[ext_resource type="PackedScene" uid="uid://vwd7gj1tlm2c" path="res://yuhao_MapDesign/scenes/character_body_2d.tscn" id="2_1n30v"]
+[ext_resource type="PackedScene" uid="uid://vwd7gj1tlm2c" path="res://yuhao_MapDesign/scenes/mapTestRat.tscn" id="2_1n30v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_03na7"]
 3:2/0 = 0
