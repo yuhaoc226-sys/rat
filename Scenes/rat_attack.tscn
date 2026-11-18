@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dixka1outmspc"]
+
+[ext_resource type="Texture2D" uid="uid://btxjm86wqjb75" path="res://Joel_Player/assets/slash.png" id="1_odeah"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kwx4u"]
+radius = 48.0
+height = 168.0
+
+[node name="RatAttack" type="Area2D" unique_id=1688480546]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=861236575]
+position = Vector2(83, 63)
+texture = ExtResource("1_odeah")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1863456521]
+position = Vector2(77, 58)
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_kwx4u")

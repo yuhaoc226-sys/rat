@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://duc3b6ta6aciw"]
 
 [ext_resource type="Script" uid="uid://d0hcvpjjuql7c" path="res://yuhao_SettingsUI/testing/testing_game_board.gd" id="1_8atj2"]
+[ext_resource type="PackedScene" uid="uid://cqq12f4rx1n06" path="res://yuhao_SettingsUI/pause/uiPause.tscn" id="2_cu016"]
 
 [sub_resource type="CanvasTexture" id="CanvasTexture_kxi2o"]
 
@@ -8,7 +9,13 @@
 script = ExtResource("1_8atj2")
 
 [node name="Polygon2D" type="Polygon2D" parent="." unique_id=822038255]
+visible = false
 modulate = Color(1, 1, 1, 0)
 color = Color(0.2, 0.23137255, 0.7137255, 1)
 texture = SubResource("CanvasTexture_kxi2o")
 polygon = PackedVector2Array(-64, -53, 1228, -47, 1217, 666, -54, 660)
+
+[node name="Control" parent="." unique_id=1444024070 instance=ExtResource("2_cu016")]
+visible = false
+
+[connection signal="unpaused" from="Control" to="." method="_on_control_unpaused"]
