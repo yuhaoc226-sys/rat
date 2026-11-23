@@ -4,9 +4,17 @@ var speed = 300.0
 var jump_velocity = -400.0
 
 var second_jump = true
+<<<<<<< HEAD
 var paused = false
 
 var items = []
+=======
+
+var paused = false
+
+var items = []
+
+>>>>>>> aae0b2db1345e34505af09a996fb411e329d357c
 signal pickup(item)
 
 func _ready() -> void:
