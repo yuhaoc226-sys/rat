@@ -1,11 +1,11 @@
 class_name gameItems
 
 var name: String
-var id: int
+var id: String
 var spritePath: String
 var description: String
 
-func _init(i_name: String, i_id: int):
+func _init(i_name: String, i_id: String):
 	name = i_name
 	id = i_id
 	spritePath = ""
@@ -15,3 +15,10 @@ func _init(i_name: String, i_id: int):
 	
 func printOutItemPropterties():
 	print(name + " " + str(id))
+	
+func getName():
+	return name
+func getId():
+	return id
+func getDescription():
+	return description
