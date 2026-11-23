@@ -1,11 +1,7 @@
 {
-	"items":
-		[
-				{
-					"name": "sword",
-					"id": "1",
-					"spritePath": "",
-					"description": "",
-				}	
-		]
+	"items":[
+			"name": "Sword",
+			"id": "1",
+
+	]
 }

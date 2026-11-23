@@ -1,4 +1,6 @@
-var playerRef: Node2D = null
+extends Node
+
+var playerRef = null
 
 func _exit_tree():
 	pushToJSONDB(playerRef.items)
@@ -20,8 +22,8 @@ func pushToJSONDB(array):
 	file_ref.close()
 func pullFromJSONDB():
 	var arrayOfItemsFromDB = []
-	var dictFromFile = JSON.parse_string(
-		FileAccess.get_file_as_string("res://Kerui_Inventory/data/playerInventory.json"))
-	for item in dictFromFile["items"]:
-		arrayOfItemsFromDB.append(gameItems.new(item["name"], item["id"]))
+	#var file = FileAccess.open("res://Kerui_Inventory/data/playerInventory.json", FileAccess.READ)
+	#print(dictFromFile)
+	#for item in dictFromFile["items"]:
+#		arrayOfItemsFromDB.append(gameItems.new(item["name"], item["id"]))
 	return arrayOfItemsFromDB
