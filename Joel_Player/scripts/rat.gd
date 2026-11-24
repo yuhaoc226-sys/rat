@@ -13,11 +13,9 @@ signal pickup(item)
 signal attack
 
 func _ready() -> void:
-	#Global.playerRef = self
-	#items = Global.pullFromJSONDB()
-	#while(true):
-	#	await get_tree().create_timer(2.5).timeout
-	#	items[0].printOutItemPropterties()
+	Global.playerRef = self
+	items = Global.pullFromJSONDB()
+	items[0].printOutItemPropterties()
 	pass
 func _physics_process(delta: float) -> void:
 	if (!paused):
