@@ -4,18 +4,13 @@ var speed = 300.0
 var jump_velocity = -400.0
 
 var second_jump = true
-<<<<<<< HEAD
-var paused = false
-
-var items = []
-=======
 
 var paused = false
 
 var items = []
 
->>>>>>> aae0b2db1345e34505af09a996fb411e329d357c
 signal pickup(item)
+signal attack
 
 func _ready() -> void:
 	#Global.playerRef = self
@@ -47,7 +42,7 @@ func _physics_process(delta: float) -> void:
 			speed = 500.0
 		
 		if Input.is_action_just_pressed("attack"):
-			
+			attack.emit(global_position)
 
 		# Get the input direction and handle the movement/deceleration.
 		# As good practice, you should replace UI actions with custom gameplay actions.

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://btxjm86wqjb75"
-path="res://.godot/imported/slash.png-b89675ad83a5922e2d405f156631548e.ctex"
+uid="uid://8wg2pqo5nb8i"
+path="res://.godot/imported/attack.webp-e5e522b0a6d14472eba703cbbaa94760.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Joel_Player/assets/slash.png"
-dest_files=["res://.godot/imported/slash.png-b89675ad83a5922e2d405f156631548e.ctex"]
+source_file="res://Joel_Player/assets/attack.webp"
+dest_files=["res://.godot/imported/attack.webp-e5e522b0a6d14472eba703cbbaa94760.ctex"]
 
 [params]
 
