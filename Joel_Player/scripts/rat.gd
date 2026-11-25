@@ -4,12 +4,13 @@ var speed = 300.0
 var jump_velocity = -400.0
 
 var second_jump = true
-
 var paused = false
+var attack_cooldown = true
 
 var items = []
 
 signal pickup(item)
+signal attack_timer
 signal attack
 
 func _ready() -> void:
@@ -39,7 +40,9 @@ func _physics_process(delta: float) -> void:
 		if Input.is_action_pressed("sprint"):
 			speed = 500.0
 		
-		if Input.is_action_just_pressed("attack"):
+		if Input.is_action_just_pressed("attack") and (attack_cooldown):
+			attack_cooldown = false
+			attack_timer.emit()
 			attack.emit(global_position)
 
 		# Get the input direction and handle the movement/deceleration.
@@ -54,3 +57,7 @@ func _physics_process(delta: float) -> void:
 
 func _on_testing_game_board_game_paused() -> void:
 	paused = !paused
+
+
+func _on_attack_timer_timeout() -> void:
+	attack_cooldown = true

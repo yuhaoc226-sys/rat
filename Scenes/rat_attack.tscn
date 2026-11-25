@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://dixka1outmspc"]
 
+[ext_resource type="Texture2D" uid="uid://8wg2pqo5nb8i" path="res://Joel_Player/assets/attack.webp" id="1_odeah"]
+
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_r26nq"]
-load_path = "res://.godot/imported/slash.png-b89675ad83a5922e2d405f156631548e.ctex"
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kwx4u"]
 radius = 48.0
@@ -20,3 +21,8 @@ texture = SubResource("CompressedTexture2D_r26nq")
 position = Vector2(77, 58)
 rotation = 1.5707964
 shape = SubResource("CapsuleShape2D_kwx4u")
+
+[node name="Attack" type="Sprite2D" parent="." unique_id=378826062]
+position = Vector2(71, 64)
+scale = Vector2(0.4882143, 0.5075)
+texture = ExtResource("1_odeah")
