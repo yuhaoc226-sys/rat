@@ -1,7 +1,7 @@
-extends Area2D
+extends Node2D
 
 var direction = Vector2(0,0)
-
+var leaving = false
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	if (rotation_degrees == 0):
@@ -21,9 +21,13 @@ func _process(delta: float) -> void:
 	
 	pass
 
-
-
-func _on_body_entered(body: Node2D) -> void:
+		
+func _on_player_leaving_the_scene(body: Node2D) -> void:
+	leaving = true
 	if body is CharacterBody2D:
 		body.velocity= Vector2(0,-1000)
-		
+
+
+func _on_player_entering_the_scene(body: Node2D) -> void:
+	if body is CharacterBody2D and !leaving:
+		body.velocity= Vector2(0,-1000) *-1
