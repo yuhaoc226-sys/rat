@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://25o3mirlu0vb"]
+
+[ext_resource type="Script" uid="uid://bwisfc1bo53q2" path="res://yuhao_MapDesign/MapScene/AtlanticStation/script/ChTscn_AtlanticStation.gd" id="1_xube5"]
+[ext_resource type="Texture2D" uid="uid://c0wm5hgsgbirh" path="res://assets/mapAssets/tranSceneLight.png" id="2_uc83n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kxi2o"]
+size = Vector2(239, 573.375)
+
+[node name="ChTscn_AtlanticStation" type="Area2D" unique_id=180109470]
+script = ExtResource("1_xube5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2097963157]
+position = Vector2(2012, -142.6875)
+shape = SubResource("RectangleShape2D_kxi2o")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1053855465]
+self_modulate = Color(0.20511743, 0.20511743, 0.20511743, 1)
+z_index = -1
+position = Vector2(2012, -110.375)
+texture = ExtResource("2_uc83n")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
