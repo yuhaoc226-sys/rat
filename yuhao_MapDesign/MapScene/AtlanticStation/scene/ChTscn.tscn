@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://25o3mirlu0vb"]
+
+[ext_resource type="Script" uid="uid://bwisfc1bo53q2" path="res://yuhao_MapDesign/MapScene/AtlanticStation/script/ChTscn_AtlanticStation.gd" id="1_xube5"]
+[ext_resource type="Texture2D" uid="uid://c0wm5hgsgbirh" path="res://assets/mapAssets/tranSceneLight.png" id="2_uc83n"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kxi2o"]
+size = Vector2(239, 260.6875)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_saau1"]
+size = Vector2(235.5, 236.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xube5"]
+size = Vector2(331, 556)
+
+[node name="ChTscn_AtlanticStation" type="Node2D" unique_id=68853752]
+script = ExtResource("1_xube5")
+
+[node name="Enterance" type="Area2D" parent="." unique_id=1776043046]
+
+[node name="Enterance" type="CollisionShape2D" parent="Enterance" unique_id=2097963157]
+position = Vector2(2012, -230.65625)
+shape = SubResource("RectangleShape2D_kxi2o")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=996318522]
+
+[node name="Exit" type="Area2D" parent="." unique_id=1667287338]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Exit" unique_id=1335438199]
+position = Vector2(2015.75, 13.75)
+shape = SubResource("RectangleShape2D_saau1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1053855465]
+self_modulate = Color(0.20511743, 0.20511743, 0.20511743, 1)
+z_index = -1
+position = Vector2(2012, -110.375)
+texture = ExtResource("2_uc83n")
+
+[node name="CameraCollision" type="StaticBody2D" parent="." unique_id=1860669851]
+
+[node name="CameraCollision" type="CollisionShape2D" parent="CameraCollision" unique_id=1491734013]
+position = Vector2(2012.5, -123)
+shape = SubResource("RectangleShape2D_xube5")
+
+[connection signal="body_entered" from="Enterance" to="." method="_on_player_entering_the_scene"]
+[connection signal="body_entered" from="Exit" to="." method="_on_player_leaving_the_scene"]

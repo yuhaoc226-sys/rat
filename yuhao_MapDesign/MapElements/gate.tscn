@@ -10,16 +10,17 @@ bake_interval = 0.01
 size = Vector2(525, 227)
 
 [node name="Gate" type="AnimatableBody2D" unique_id=1669342973]
+position = Vector2(5, -32)
 script = ExtResource("1_1jdat")
 
 [node name="Path2D" type="Path2D" parent="." unique_id=397813043]
 curve = SubResource("Curve2D_1jdat")
 
 [node name="Sprite2D" type="Sprite2D" parent="Path2D" unique_id=1330489052]
-position = Vector2(742, 27)
+position = Vector2(596, 437)
 scale = Vector2(1.302, 1)
 texture = ExtResource("1_gy8cs")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=247031974]
-position = Vector2(754.5, 24.5)
+position = Vector2(588, 438)
 shape = SubResource("RectangleShape2D_kxi2o")
